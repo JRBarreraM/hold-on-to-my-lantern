@@ -122,8 +122,8 @@ GameObject:
   m_Component:
   - component: {fileID: 697877514}
   - component: {fileID: 697877513}
-  - component: {fileID: 697877515}
   - component: {fileID: 697877516}
+  - component: {fileID: 697877515}
   m_Layer: 0
   m_Name: Euler
   m_TagString: Untagged
@@ -165,7 +165,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: b56b93084978c2040b476f476f06bd72, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f2810a48d294f2c48a659802cda95ac3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -196,10 +196,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 697877512}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 384d37d408eab5045a092c1eab8df594, type: 3}
+  m_Script: {fileID: 11500000, guid: 26d2c607f469e3f4093d043c94adb0d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
+  speed: 2
+  obstacles:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!95 &697877516
 Animator:
   serializedVersion: 3
@@ -209,7 +212,7 @@ Animator:
   m_GameObject: {fileID: 697877512}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 6069e27a0681b3e4b95b89e5cbf96635, type: 2}
+  m_Controller: {fileID: 9100000, guid: 682ec46070afebc4b8d9d6308f7614d2, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
